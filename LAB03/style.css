@@ -1,5 +1,5 @@
 .top{
-    background-color:#84C1FF;
+    background-color:#344648;
     position: fixed;
     width: 100%;
     left:0;
@@ -18,8 +18,11 @@
     margin-top:150px;
     width:23%;
 }
+a{
+    color:black
+}
 nav{
-    width:100%;
+    width:97%;
 }
 nav a {
     color: inherit;
@@ -36,6 +39,7 @@ nav > li{
     flex-direction: row;
 }
 nav a:hover{
-    background-color: #84C1FF;
+    background-color: #7D8E95;
     color: white;
+    border-radius:50px
 }
