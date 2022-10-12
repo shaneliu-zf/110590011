@@ -56,10 +56,48 @@
 
             <div style='margin-left:100px'>
                 <h1 id='title'>頭銜</h1>
-                <ul>
-                    <li>北科駭客喵喵社社長</li>
-                    <li>北科圍棋社公關</li>
-                    <li>夢想一號魔術方塊學院講師</li>
+                <style>
+                .title{
+                    list-style: none;
+                }
+                .title .p::before{
+                    content: "\2022";
+                    color: red;
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1rem;
+                    margin-left: -2rem;
+                }
+                .title .q::before{
+                    content: "\2022";
+                    color: green;
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1rem;
+                    margin-left: -2rem;
+                }
+                .title .r::before{
+                    content: "\2022";
+                    color: yellow;
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1rem;
+                    margin-left: -2rem;
+                }
+                .title .s::before{
+                    content: "\2022";
+                    color: blue;
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1rem;
+                    margin-left: -2rem;
+                }
+                </style>
+                <ul class='title'>
+                    <li class='p'><a href='https://github.com/NTUT-CINC'>北科駭客喵喵社 社長</a></li>
+                    <li class='q'><a href='https://susuclothes.com/'>速速製衣 業務</a></li>
+                    <li class='r'><a href='https://www.instagram.com/ntut__go/'>北科圍棋社 公關</a></li>
+                    <li class='s'><a href='https://dreamcube.tw/'>夢想一號魔術方塊學院 講師</a></li>
                 </ul>
 
                 <br />
