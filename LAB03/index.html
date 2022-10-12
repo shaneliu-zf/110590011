@@ -20,8 +20,33 @@
             margin-top:150px;
             width:23%;
         }
-        .nav{
-            margin-top: 100px
+        .nav-bar{
+            flex-direction: row;
+            margin-left:70px;
+            margin-top:150px;
+            width:23%;
+        }
+        nav{
+            background-color:#C4E1FF;
+            width:100%;
+        }
+        nav a {
+            color: inherit;
+            display: block;
+            font-size: 1.2rem;
+            padding: 10px;
+            text-decoration: none;
+        }
+        nav > ul {
+            list-style: none;
+            display: flex;
+        }
+        nav > li{
+            flex-direction: row;
+        }
+        nav a:hover{
+            background-color: #84C1FF;
+            color: white;
         }
     </style>
 </head>
@@ -31,62 +56,37 @@
             <center><h1 style=''>櫛風的個人檔案</h1></center>
         </div>
 
-        <div class='nav'>
-            <iframe src="nav.html" frameBorder="0"></iframe>
-        </div>
 
         <div style="display: flex;">
 
-        <!--<div class='side-bar'>
-            <iframe src="sidebar.html" frameBorder="0"  width="350" height="3000"></iframe>
-        </div>-->
+        <div class='side-bar'>
+            <a href="https://github.com/shaneliu-zf">
+                    <img src='me.jpg' style='width:90%;border-radius:50%' title="Hello" >
+            </a>
+            <h1 style='font-family:courier New'>Shane Liu（櫛風）</h1>
+            <h2>台北科技大學資訊工程學系<br />台北大學經濟學系</h2>
+            <a href="mailto:shaneliu1010@gmail.com">shaneliu1010@gmail.com</a><br />
+        </div>
 
 
         <div style='flex-direction: row;width:5%'></div>
         <div style='flex-direction: row;width:60%;margin-left:380px;margin-top:150px'>
 
 
+            <nav>
+                <ul>
+                    <li style='width:25%'><center><a href="index.html" >個人簡介</a></center></li>
+                    <li style='width:25%'><center><a href="title.html" >頭銜</a></center></li>
+                    <li style='width:25%'><center><a href="organise.html">曾舉辦過的活動</a></center></li>
+                    <li style='width:25%'><center><a href="certification.html">持有證照</a></center></li>
+                </ul>
+            </nav>
+
             <h1 style="margin-top:20px" id='top'>個人簡介</h1>
             曾擔任新竹高中資訊奧林匹亞隊長兼助教。<br />
             現在正在北科資工讀大二，順便輔修台北大學經濟系。
 
-            <hr />
-
-            <h1 id='title'>頭銜</h1>
-            <ul>
-                <li>北科駭客喵喵社社長</li>
-                <li>北科圍棋社公關</li>
-                <li>夢想一號魔術方塊學院講師</li>
-            </ul>
-
-            <hr />
-
-            <h1 id="organise-event">曾舉辦過的活動</h1>
-            <ol>
-                <li>新竹高中軟研社聯合社課</li>
-                <li>新竹高中軟研社老人茶會</li>
-                <li>新竹高中社團博覽會</li>
-                <li>新竹高中軟研社聯合迎新</li>
-                <li>新竹高中軟研社企業參訪</li>
-                <li>新竹高中軟研社聯合寒訓</li>
-                <li>新竹高中魔術社聯合寒訓</li>
-                <li>新竹高中軟研社聯合寒訓</li>
-                <li>2021 COSCUP開源人年會</li>
-                <li>2021 北科新生群新生活動</li>
-                <li>2021 北科資工系聯誼</li>
-                <li>2022 COSCUP開源人年會</li>
-                <li>2022 北科資工系迎新</li>
-            </ol>
-
-
-            <hr />
-
-            <h1 id='certification'>持有證照</h1>
-            <ol>
-                <li>電腦軟體應用丙級技術士</li>
-                <li>APCS 觀念四/實作三</li>
-                <li>AIL人工智慧素養國際認證</li>
-            </ol>
+            <br />
 
 
             <a href='#top'>回到最上面</a>
