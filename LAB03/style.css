@@ -1,0 +1,41 @@
+.top{
+    background-color:#84C1FF;
+    position: fixed;
+    width: 100%;
+    left:0;
+    top:0;
+}
+.side-bar{
+    position: fixed;
+    flex-direction: row;
+    margin-left:70px;
+    margin-top:150px;
+    width:23%;
+}
+.nav-bar{
+    flex-direction: row;
+    margin-left:70px;
+    margin-top:150px;
+    width:23%;
+}
+nav{
+    width:100%;
+}
+nav a {
+    color: inherit;
+    display: block;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+}
+nav > li{
+    flex-direction: row;
+}
+nav a:hover{
+    background-color: #84C1FF;
+    color: white;
+}
