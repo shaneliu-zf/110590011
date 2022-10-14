@@ -43,11 +43,3 @@ nav a:hover{
     color: white;
     border-radius:50px
 }
-.left{
-    flex-direction: row;
-    width:65%;
-    margin-left:450px;
-    margin-top:150px;
-    background:#FFBB98;
-    border-radius:50px;
-}
