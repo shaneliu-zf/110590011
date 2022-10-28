@@ -1,13 +1,20 @@
 body{
     background-color: #FBE0C3;
 }
-
 .head{
     background-color:#344648;
     position: fixed;
     width: 100%;
     left:0;
     top:0;
+}
+.left{
+    flex-direction: row;
+    width:65%;
+    margin-left:450px;
+    margin-top:150px;
+    background:#FFBB98;
+    border-radius:50px;
 }
 .side-bar{
     position: fixed;
@@ -17,31 +24,32 @@ body{
     width:23%;
 }
 .nav-bar{
-    display: flex;
     margin-left:70px;
     margin-top:150px;
     width:23%;
 }
 a{
-    color:black
+    color:black;
 }
 nav{
     width:97%;
+    display: flex;
 }
-nav a{
+nav > a{
     color: inherit;
     display: block;
     font-size: 1.2rem;
     padding: 10px;
     text-decoration: none;
 }
-nav > ul {
+nav > ul{
     list-style: none;
 }
 nav > li{
     flex-direction: row;
+    width:20%;
 }
-nav a:hover{
+nav > a:hover{
     background-color: #7D8E95;
     color: white;
     border-radius:50px
