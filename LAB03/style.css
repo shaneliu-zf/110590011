@@ -23,34 +23,29 @@ body{
     margin-top:150px;
     width:23%;
 }
-.nav-bar{
-    margin-left:70px;
-    margin-top:150px;
-    width:23%;
-}
 a{
     color:black;
 }
-nav{
+.nav-bar{
     width:97%;
 }
-nav a{
+.nav-bar a{
     color: inherit;
     display: block;
     font-size: 1.2rem;
     padding: 10px;
     text-decoration: none;
 }
-nav > ul{
-    list-style: none;
-    display: flex;
-}
-nav > li{
-    flex-direction: row;
-    width:20%;
-}
-nav a:hover{
+.nav-bar a:hover{
     background-color: #7D8E95;
     color: white;
     border-radius:50px;
+}
+.nav-bar > ul{
+    list-style: none;
+    display: flex;
+}
+.nav-bar > li{
+    flex-direction: row;
+    width:20%;
 }
