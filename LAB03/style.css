@@ -1,5 +1,5 @@
 body{
-    background-color: #FBE0C3
+    background-color: #FBE0C3;
 }
 
 .head{
@@ -8,6 +8,14 @@ body{
     width: 100%;
     left:0;
     top:0;
+}
+.left{
+    flex-direction: row;
+    width:65%;
+    margin-left:450px;
+    margin-top:150px;
+    background:#FFBB98;
+    border-radius:50px;
 }
 .side-bar{
     position: fixed;
@@ -37,7 +45,6 @@ nav a {
 }
 nav > ul {
     list-style: none;
-    display: flex;
 }
 nav > li{
     flex-direction: row;
