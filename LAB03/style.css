@@ -22,15 +22,6 @@ body{
     margin-top:150px;
     width:23%;
 }
-
-.left{
-    flex-direction: row;
-    width:65%;
-    margin-left:450px;
-    margin-top:150px;
-    background:#FFBB98;
-    border-radius:50px;
-}
 a{
     color:black
 }
