@@ -26,26 +26,3 @@ body{
 a{
     color:black;
 }
-.nav-bar{
-    width:97%;
-}
-.nav-bar a{
-    color: inherit;
-    display: block;
-    font-size: 1.2rem;
-    padding: 10px;
-    text-decoration: none;
-}
-.nav-bar a:hover{
-    background-color: #7D8E95;
-    color: white;
-    border-radius:50px;
-}
-.nav-bar > ul{
-    list-style: none;
-    display: flex;
-}
-.nav-bar > li{
-    flex-direction: row;
-    width:20%;
-}
