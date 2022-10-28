@@ -9,14 +9,6 @@ body{
     left:0;
     top:0;
 }
-.left{
-    flex-direction: row;
-    width:65%;
-    margin-left:450px;
-    margin-top:150px;
-    background:#FFBB98;
-    border-radius:50px;
-}
 .side-bar{
     position: fixed;
     flex-direction: row;
