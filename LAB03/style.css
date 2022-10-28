@@ -25,10 +25,10 @@ body{
     width:23%;
 }
 .nav-bar{
-    flex-direction: row;
     margin-left:70px;
     margin-top:150px;
     width:23%;
+    display: flex;
 }
 a{
     color:black
