@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+
+</head>
+    <body>
+        <table id='table'>
+            <thead>
+                <tr>
+                    <th>aa</th>
+                    <th>bb</th>
+                    <th>cc</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1234567</td>
+                    <td>1234567</td>
+                    <td>1234567</td>
+                </tr>
+                <tr>
+                    <td>1234567</td>
+                    <td>1234567</td>
+                    <td>1234567</td>
+                </tr>
+            </tbody>
+        </table>
+
+            <p>
+            <h2>Width</h2>
+            <button onclick="setWidth(200)">200px</button>
+            <button onclick="setWidth(500)">500px</button>
+            </p>
+
+            <p>
+            <h2>border</h2>
+            <button onclick="setBorder(5)">5px</button>
+            <button onclick="setBorder(10)">10px</button>
+            <button onclick="setBorder(15)">15px</button>
+            </p>
+
+            <p>
+            <h2>Color</h2>
+            <button style="background-color:#BBFFBB" onclick="setColor('#BBFFBB')">green</button>
+            <button style="background-color:#A6A6D2" onclick="setColor('#A6A6D2')">purple</button>
+            <button style="background-color:#66B3FF" onclick="setColor('#66B3FF')">blue</button>
+            <button style="background-color:#FF7575" onclick="setColor('#FF7575')">red</button>
+            </p>
+        <button onclick="reset()">reset</button>
+
+
+        <script>
+            reset();
+        </script>
+    </body>
+</html>
